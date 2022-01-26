@@ -1,0 +1,49 @@
+﻿Create a console application written in C# that implements a following method:
+
+public static int Evaluate(string expression);
+
+The "Evaluate"	method accepts a math expression with Roman digits, evaluates it and returns a result in decimal 
+format. For example: "I+II-I" = 2 or "X-V"=5. Allowed operators: "+", "-", "*".
+The method should also validate an input argument by following rules:
+	- "expression" argument shouldn't be null or empty
+	- "expression" should contain only whitespaces, allowed operators: "+", "-", "*" and 
+	letters: M = 1000, D = 500, C = 100, L = 50, X = 10, V = 5, I = 1
+	- No parentheses, punctuation mark or decimal digits 
+	- It should be a valid math expression
+
+Evaluation criteria:
+1. Correctness and business requirements fulfillment
+2. Code readability
+3. Lines of code
+4. Usage of existing .net tools, lack of low-level data manipulations
+5. C# version 5.0 or higher
+6. .net framework 4.5 or .net core 2.0 or greater
+
+Nice to have:
+7. Unit tests
+
+
+Створіть консольну програму, написану на C#, яка реалізує такий метод:
+
+public static int Evaluate(рядковий вираз);
+
+Метод «Evaluate» приймає математичний вираз із римськими цифрами, оцінює його та 
+повертає результат у десятковому вигляді
+формат. Наприклад: "I+II-I" = 2 або "X-V"=5. Дозволені оператори: «+», «-», «*».
+Метод також повинен перевіряти вхідний аргумент за такими правилами:
+- аргумент "expression" не повинен бути нульовим або порожнім
+- "вираз" має містити тільки пробіли, дозволені оператори: "+", "-", "*" і
+літери: M = 1000, D = 500, C = 100, L = 50, X = 10, V = 5, I = 1
+- Без дужок, розділових знаків або десяткових цифр
+- Це має бути дійсний математичний вираз
+
+Критерії оцінки:
+1. Коректність і виконання вимог бізнесу
+2. Читабельність коду
+3. Рядки коду
+4. Використання існуючих інструментів .net, відсутність низькорівневих маніпуляцій з даними
+5. C# версії 5.0 або вище
+6. .net framework 4.5 або .net core 2.0 або новішої
+
+Добре мати:
+7. Модульні тести
